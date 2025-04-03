@@ -12,4 +12,6 @@ import java.util.List;
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
     List<EmployeeProjection> findBy();
+    List<EmployeeProjection> findEmployee
+
 }
